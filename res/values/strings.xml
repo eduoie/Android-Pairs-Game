@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, PairGamesActivity!</string>
+    <string name="app_name">Pairs Game</string>
+    <string name="play_game">Play game</string>
+    <string name="titleOptions">Options</string>
+    <string name="areyousuretoquitapp">Are you sure you want to quit?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="couldnt_load_images">"Couldn't load images"</string>
+    <string name="reloading_original_images">"Reloading original images"</string>
+    <string name="images_reloaded">""Images reloaded"</string>
+    <string name="error_updating_images">"Error updating images. This shouldn't be happening :("</string>
+    <string name="tap_on_image_to_change_it">Tap on an image to change it</string>
+    <string name="reload_original_images">Reload original images</string>
+	<string name="player1_wins">"Player 1 wins!"</string>
+	<string name="player2_wins">"Player 2 wins!"</string>
+	<string name="tie_game">"Tie!"</string>
+	<string name="player1_turn">"Player 1 turn"</string>
+	<string name="player2_turn">"Player 2 turn"</string>
+	<string name="player1_score">"Player 1 Score: "</string>
+	<string name="player2_score">"Player 2 Score: "</string>
+	<string name="turn_string">Turn</string>
+	<string name="select_card_images">Select card images</string>
+	<string name="player_mode">Player mode</string>
+	<string name="board_size">Board Size</string>
+	<string name="sounds_enabled">Sounds Enabled</string>
+	<string name="one_player">One player</string>
+	<string name="two_players">Two players</string>
+	<string name="player_vs_computer">Player vs Computer</string>
+	<string name="player1_score_0">Player 1 Score: 0</string>
+	<string name="player2_score_0">Player 2 Score: 0</string>
+	<string name="how_to_play">Tap and drag a card to uncover it</string>
+	<string name="images_from">Images from: icons.mysitemyway.com</string>
+</resources>

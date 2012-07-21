@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project Licensed under the 
+	Apache License, Version 2.0 (the "License"); you may not use this file except 
+	in compliance with the License. You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0 
+	Unless required by applicable law or agreed to in writing, software distributed 
+	under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES 
+	OR CONDITIONS OF ANY KIND, either express or implied. See the License for 
+	the specific language governing permissions and limitations under the License. -->
+
+<!-- Demonstrates changing view visibility. See corresponding Java code. -->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" android:layout_width="match_parent"
+	android:layout_height="fill_parent">
+
+	<!-- Here is where we put the SurfaceView, in a frame so that we can stack 
+		other views on top of it. -->
+	<FrameLayout android:layout_width="match_parent"
+		android:layout_height="0px" android:layout_weight="1">
+
+		<android.opengl.GLSurfaceView android:id="@+id/glsurfaceview"
+			android:layout_width="match_parent" android:layout_height="425dp" />
+
+		<LinearLayout android:id="@+id/hidecontainer"
+			android:orientation="vertical" android:visibility="gone"
+			android:gravity="center" android:layout_width="match_parent"
+			android:layout_height="match_parent">
+
+		</LinearLayout>
+
+	</FrameLayout>
+	<RelativeLayout android:layout_width="match_parent"
+		android:id="@+id/relativeLayout1" android:layout_height="60dp" android:background="@drawable/my_border">
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:lines="1"
+			android:paddingRight="10dip"
+			android:textAppearance="?android:attr/textAppearanceMedium"
+			android:id="@+id/textPlayer1" android:layout_alignParentBottom="true"
+			android:layout_alignParentLeft="true" android:text="@string/player1_score_0" android:textColor="#CC4F8D"></TextView>
+		<TextView android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:text="@string/turn_string"
+			android:textColor="#4477FF" android:textAppearance="?android:attr/textAppearanceLarge"
+			android:id="@+id/textPlayerTurn" android:layout_alignParentTop="false"
+			android:layout_centerHorizontal="true" android:paddingBottom="10dip"></TextView>
+		<TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:lines="1" android:paddingLeft="10dip" android:textAppearance="?android:attr/textAppearanceMedium" android:id="@+id/textPlayer2" android:layout_alignParentBottom="true" android:layout_alignParentRight="true" android:text="@string/player2_score_0" android:textColor="#7D34F3"></TextView>
+	</RelativeLayout>
+
+</LinearLayout>

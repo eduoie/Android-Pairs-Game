@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, PairGamesActivity!</string>
+    <string name="app_name">Juego de las parejas</string>
+    <string name="play_game">Jugar</string>
+    <string name="titleOptions">Opciones</string>
+    <string name="areyousuretoquitapp">¿Seguro que quieres abandonar?</string>
+    <string name="yes">Si</string>
+    <string name="no">No</string>
+    <string name="couldnt_load_images">"Couldn't load images"</string>
+    <string name="reloading_original_images">"Recargando imágenes originales"</string>
+    <string name="images_reloaded">"Imágenes recargadas"</string>
+    <string name="error_updating_images">"Error recargando imágenes. Esto no debería haber pasado :("</string>
+    <string name="tap_on_image_to_change_it">Presiona sobre una imagen para cambiarla</string>
+    <string name="reload_original_images">Recarga las imágenes originales</string>
+	<string name="player1_wins">"Jugador 1 ha ganado!"</string>
+	<string name="player2_wins">"Jugador 2 ha ganado!"</string>
+	<string name="tie_game">"Empate!"</string>
+	<string name="player1_turn">"Turno jugador 1"</string>
+	<string name="player2_turn">"Turno jugador 2"</string>
+	<string name="player1_score">"Jugador 1: "</string>
+	<string name="player2_score">"Jugador 2: "</string>
+	<string name="turn_string">Turno</string>
+	<string name="select_card_images">Elegir imágenes de las cartas</string>
+	<string name="player_mode">Modo de juego</string>
+	<string name="board_size">Tamaño de tablero</string>
+	<string name="sounds_enabled">Sonidos activados</string>
+	<string name="one_player">Un jugador</string>
+	<string name="two_players">Dos jugadores</string>
+	<string name="player_vs_computer">Jugador vs Máquina</string>
+	<string name="player1_score_0">Jugador 1: 0</string>
+	<string name="player2_score_0">Jugador 2: 0</string>
+	<string name="how_to_play">Presiona sobre una carta y arrastra el dedo para descubrirla</string>
+	<string name="images_from">Imágenes obtenidas de: icons.mysitemyway.com</string>
+	
+</resources>

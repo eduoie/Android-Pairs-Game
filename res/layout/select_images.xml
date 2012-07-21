@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/tap_on_image_to_change_it"
+        android:textAppearance="?android:attr/textAppearanceMedium" android:layout_gravity="center_horizontal"/>
+
+    <TableLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/tableLayout1">
+        <TableRow android:id="@+id/tableRow1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center_horizontal" android:layout_marginTop="10dp">
+            <ImageView android:src="@drawable/icon" android:id="@+id/imageView1" android:layout_height="wrap_content" android:layout_width="wrap_content" android:clickable="true" android:layout_margin="2dp"></ImageView>
+            <ImageView android:src="@drawable/icon" android:id="@+id/imageView2" android:layout_height="wrap_content" android:layout_width="wrap_content" android:clickable="true" android:layout_margin="2dp"></ImageView>
+            <ImageView android:src="@drawable/icon" android:id="@+id/imageView3" android:layout_height="wrap_content" android:layout_width="wrap_content" android:clickable="true" android:layout_margin="2dp"></ImageView>
+            <ImageView android:src="@drawable/icon" android:id="@+id/imageView4" android:layout_height="wrap_content" android:layout_width="wrap_content" android:clickable="true" android:layout_margin="2dp"></ImageView>
+        </TableRow>
+        <TableRow android:id="@+id/tableRow2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center_horizontal" android:layout_marginTop="10dp">
+            <ImageView android:src="@drawable/icon" android:id="@+id/imageView5" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_margin="2dp"></ImageView>
+            <ImageView android:src="@drawable/icon" android:id="@+id/imageView6" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_margin="2dp"></ImageView>
+            <ImageView android:src="@drawable/icon" android:layout_height="wrap_content" android:layout_width="wrap_content" android:id="@+id/imageView7" android:layout_margin="2dp"></ImageView>
+            <ImageView android:src="@drawable/icon" android:id="@+id/imageView8" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_margin="2dp"></ImageView>
+        </TableRow>
+        <TableRow android:id="@+id/tableRow3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center_horizontal" android:layout_marginTop="10dp">
+            <ImageView android:src="@drawable/icon" android:id="@+id/imageView9" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_margin="2dp"></ImageView>
+            <ImageView android:src="@drawable/icon" android:id="@+id/imageView10" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_margin="2dp"></ImageView>
+            <ImageView android:src="@drawable/icon" android:id="@+id/imageView11" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_margin="2dp"></ImageView>
+            <ImageView android:src="@drawable/icon" android:id="@+id/imageView12" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_margin="2dp"></ImageView>
+        </TableRow>
+        <TableRow android:id="@+id/tableRow4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center_horizontal" android:layout_marginTop="10dp">
+            <ImageView android:src="@drawable/icon" android:id="@+id/imageView13" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_margin="2dp"></ImageView>
+            <ImageView android:src="@drawable/icon" android:id="@+id/imageView14" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_margin="2dp"></ImageView>
+            <ImageView android:src="@drawable/icon" android:id="@+id/imageView15" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_margin="2dp"></ImageView>
+            <ImageView android:src="@drawable/icon" android:id="@+id/imageView16" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_margin="2dp"></ImageView>
+        </TableRow>
+        <TableRow android:id="@+id/tableRow5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center_horizontal" android:layout_marginTop="10dp">
+            <ImageView android:src="@drawable/icon" android:id="@+id/imageView17" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_margin="2dp"></ImageView>
+            <ImageView android:src="@drawable/icon" android:id="@+id/imageView18" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_margin="2dp"></ImageView>
+            <ImageView android:src="@drawable/icon" android:id="@+id/imageView19" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_margin="2dp"></ImageView>
+            <ImageView android:src="@drawable/icon" android:id="@+id/imageView20" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_margin="2dp"></ImageView>
+        </TableRow>
+    </TableLayout>
+    <Button android:text="@string/reload_original_images" android:textColor="#EAEAEA" android:background="@drawable/button_shape" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textSize="20dp" android:id="@+id/buttonReloadImages" android:layout_marginTop="10dp"></Button>
+    
+</LinearLayout>

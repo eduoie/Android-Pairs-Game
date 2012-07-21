@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+    
+    <Button android:id="@+id/buttonSelectImages" android:text="@string/select_card_images" android:layout_width="fill_parent" android:textColor="#EAEAEA" android:background="@drawable/button_shape" android:paddingBottom="10dp" android:layout_marginBottom="5dp" android:layout_height="55dp" android:textSize="20dp"></Button>
+    <Button android:id="@+id/buttonPlayerMode" android:text="@string/player_mode" android:layout_width="fill_parent" android:background="@drawable/button_shape" android:textColor="#EAEAEA" android:layout_marginBottom="5dp" android:layout_height="55dp" android:textSize="20dp"></Button>
+    <Button android:id="@+id/buttonBoardSize" android:layout_width="fill_parent" android:background="@drawable/button_shape" android:textColor="#EAEAEA" android:layout_height="55dp" android:textSize="20dp" android:text="@string/board_size"></Button>
+    <RadioGroup android:id="@+id/radioGroup1" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    </RadioGroup>
+    <CheckBox android:layout_width="wrap_content" android:layout_height="wrap_content" android:id="@+id/checkBoxSound" android:textSize="20dp" android:text="@string/sounds_enabled"></CheckBox>
+    <RadioGroup android:id="@+id/radioGroup2" android:layout_width="wrap_content" android:layout_height="wrap_content">
+    </RadioGroup>
+    
+</LinearLayout>
